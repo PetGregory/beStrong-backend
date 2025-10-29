@@ -1,0 +1,41 @@
+========================================
+BACKEND GITHUB FELTÖLTÉS - COPY-PASTE
+========================================
+
+Nyisd meg a Git Bash-t és másold be ezeket a sorokat:
+
+
+cd C:/Users/USER/beStrong/backend
+
+git remote remove origin
+
+git init
+
+git add .
+
+git commit -m "Initial commit - Backend for Render"
+
+git branch -M main
+
+git remote add origin https://github.com/PetGregory/beStrong-backend.git
+
+git push -u origin main
+
+
+========================================
+HA KÉRI A HITELESÍTÉST:
+========================================
+Username: PetGregory
+Password: [GitHub Personal Access Token]
+
+
+Personal Access Token létrehozása:
+1. https://github.com/settings/tokens
+2. Generate new token (classic)
+3. Name: "Render Deploy"
+4. Check: repo (full control)
+5. Generate → Copy token
+6. Ezt add meg password helyett!
+
+========================================
+
